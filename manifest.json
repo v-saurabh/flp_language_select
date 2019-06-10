@@ -1,0 +1,36 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "hcp://zflplangplugin/manifest.json",
+		"title": "Language Selection",
+		"description": "app_desc",
+		"tags": {
+			"keywords": [
+				"keyword"
+			]
+		}
+	},
+	"sap.platform.hcp": {
+		"_version": "1.2.0",
+		"appName": "zflplangplugin",
+		"uri": "/"
+	},
+	"sap.cloud.portal": {},
+	"sap.flp": {
+		"appType": "SAP_UI5_Component",
+		"config": {
+			"editable": true,
+			"deletable": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"routing": {
+			"config": {
+				"routerClass": "sap.hana.uis.flp.routing.Router"
+			}
+		},
+		"componentName": ""
+	}
+}
